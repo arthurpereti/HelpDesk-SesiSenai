@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0px;padding: 0px;
+    
+}
+
+/* =============================== */
+/* Geral */
+
+.subtitulosectionigual{
+    font-size: 0.9rem;
+    padding: 5px;
+    background-color: #d3d3d3;
+    background-image: linear-gradient(315deg, #d3d3d3 0%, hsl(147, 5%, 67%) 74%);
+}
+
+body{
+    background-color: hsl(0, 0%, 96%);
+}
+
+header{
+    margin-bottom: 10px;
+}
+
+header .centraldeatendimento{
+    height: 4vh;
+    color: white;
+    background-color: blue;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+header .buttonsnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+
+    padding: 7px;
+}
+
+/* ================================ */
+main{
+    margin-left: 10px;
+}
+
+main #section01{
+    margin-bottom: 5px;
+}
+
+main #section01 .texto{
+    padding: 5px;
+}
+
+/* --------------  */
+
+main #section02 #section02selects{
+    padding: 10px;
+}
+
+main #section02 #section02selects select{
+    width: 20vw;
+    
+    margin-right: 100px;
+}
+
+
+/* ============================== */
+
+main #section03 #selectssection03{
+    padding: 20px 10px;
+}
+main #section03 #selectionsection03caminho{
+    width: 83.3vw;
+    margin-bottom: 10px;
+}
+main #section03 #selectionsection03natureza{
+    width: 40vw;
+    margin-bottom: 10px;
+}
+
+
+/* ================================= */
+
+main #section04 .tituloedescricao{
+    padding: 20px 10px;
+}
+
+main #section04 .tituloedescricao input{
+    width: 84.9vw;
+}
+
+
+main #section04 .tituloedescricao textarea{
+    width: 88.5vw;
+}
+
+
+#botaoconfirmar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+
+}
+
+#botaoconfirmar a{
+    text-decoration: none;
+    color: black;
+}
